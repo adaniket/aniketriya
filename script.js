@@ -30,7 +30,7 @@ $(document).ready(function () {
     const ctx = canvas.getContext("2d");
 
     canvas.height = 440;
-    canvas.width = 375;
+    canvas.width = 350;
     ctx.drawImage(myImage, 0, 0, canvas.width, canvas.height);
     const pixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -120,7 +120,7 @@ $(document).ready(function () {
 
   const canvasTwo = document.getElementById("canvas2");
   const ctxTwo = canvasTwo.getContext("2d");
-  canvasTwo.width = 360;
+  canvasTwo.width = 350;
   canvasTwo.height = 200;
 
   class PracticlesTwo {
